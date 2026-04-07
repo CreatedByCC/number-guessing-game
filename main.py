@@ -32,6 +32,8 @@ def compare_guess(answer, guess):
 def play_game():
     """Main game logic"""
     print(art.logo)
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
 
     # Generate the secret number for the game
     random_num = random.randint(1,100)
