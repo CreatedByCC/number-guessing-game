@@ -1,10 +1,18 @@
 import random
 import art
 
+ATTEMPTS_EASY = 10
+ATTEMPTS_HARD = 5
+
 def set_difficulty():
     """Set the number of attempts based on difficulty"""
-    choice = input("Choose difficulty. Type 'easy' or 'hard': ").lower()
-    return 10 if choice == "easy" else 5
+    level = input("Choose difficulty. Type 'easy' or 'hard': ").lower()
+    
+    if level == "easy":
+        return ATTEMPTS_EASY
+    
+    return ATTEMPTS_HARD
+    
 
 def get_guess():
     """Get the user's guess"""
