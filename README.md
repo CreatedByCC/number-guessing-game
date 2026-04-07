@@ -8,7 +8,6 @@ A simple Python console game where the player tries to guess a randomly generate
 ## 💡 What I Learned
 - Structuring a simple game loop using a **while loop**
 - Breaking logic into **clear, reusable functions**
-- Using **input validation** to prevent crashes
 - Applying **conditional logic** to give meaningful feedback (too high / too low)
 - Managing game difficulty by adjusting **attempt limits**
 - Improving readability with **docstrings**, comments, and clean function names
