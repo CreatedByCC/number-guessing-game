@@ -1,4 +1,4 @@
-import random
+from random import randint
 import art
 
 ATTEMPTS_EASY = 10
@@ -36,7 +36,7 @@ def play_game():
     print("I'm thinking of a number between 1 and 100.")
 
     # Generate the secret number for the game
-    random_num = random.randint(1,100)
+    random_num = randint(1,100)
     #print(random_num)      # for debugging/testing
 
     # Set number of attempts based on difficulty
